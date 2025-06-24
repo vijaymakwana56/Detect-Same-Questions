@@ -17,7 +17,7 @@ def load_model():
         model_rf = pickle.load(rf)
     with open("xgb_model.pkl","rb") as xgb:
         model_xgb = pickle.load(xgb)
-    with open("cv.pkl","rb") as vec:
+    with open("full_cv.pkl","rb") as vec:
         cv = pickle.load(vec)
     return model_rf,model_xgb,cv
 
