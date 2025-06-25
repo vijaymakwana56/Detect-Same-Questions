@@ -9,6 +9,11 @@ from nltk.corpus import stopwords
 import distance
 from fuzzywuzzy import fuzz
 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+
 
 
 @st.cache_resource
